@@ -1,0 +1,165 @@
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+font-size: 90.5%;
+}
+
+body{
+    background-color: rgb(13, 13, 131);
+    color: rgb(255, 255, 255);
+    }
+
+.titulo{
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 1rem;
+font-size: 2.3rem;
+border: 2rem;
+border-radius: 1rem;
+background-color: rgb(17, 17, 216);
+}
+#form{
+    display: block;
+    width: 50%;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#input-container{
+    display: block;
+    width: 50%;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+text-align: center;
+}
+
+#email-input{
+    padding: 1rem 10rem;
+    margin: 1rem 8rem;
+    border-radius: 2rem;
+   color: rgb(0, 0, 0);
+    background-color: rgb(51, 88, 250);
+text-transform: uppercase;
+text-align: center;
+}
+
+
+#phone-input{
+    padding: 1rem 10rem;
+    margin: 1rem 8rem;
+    border-radius: 2rem;
+   color: rgb(0, 0, 0);
+    background-color: rgb(51, 88, 250);
+text-transform: uppercase;
+text-align: center;
+
+}
+
+#email-input:hover{
+    background-color: rgb(255, 255, 255);
+color: black;
+}
+
+
+
+#phone-input:hover{
+    background-color: rgb(255, 255, 255);
+color: black;
+}
+
+.info-text{
+    padding: 1rem;
+    color: rgb(255, 255, 255);
+}
+
+#form-btn{
+    background-color: rgb(17, 17, 216);
+width: 15rem;
+height: 5rem;
+border-radius: 2rem;
+text-transform: uppercase;
+color: white;
+cursor: pointer;
+}
+
+#form-btn:hover{
+    background-color: green;
+}
+
+.info-text{
+    width: 20rem;
+    padding: 0.5rem;
+    color: rgb(255, 255, 255);
+border-radius: 3rem;
+background-color: red;
+display: flex;
+flex-direction: row;
+}
+
+li{
+    justify-content: center;
+    align-items: center;
+}
+.delete-icon{
+    color: red;
+}
+
+
+
+input{
+    background-color: rgb(75, 78, 255);
+    border-radius: 3rem;
+    align-content: center;
+    color: white;
+    text-transform: uppercase;
+margin: 0.5rem;
+text-align: center;
+}
+
+
+
+
+.wrong {
+    border: 2px solid red;
+}
+
+input {
+    outline: none;
+}
+
+.correct {
+    border: 2px solid green;
+}
+
+.info-text{
+    display: none;
+}
+
+.delete-icon{
+    width: 2rem;
+    height: 2rem;
+}
+
+.edit-icon{
+    width: 2rem;
+    height: 2rem;
+}
+
+li{
+display: flex;
+gap: 3rem;
+
+}
+
+
+.show {
+    display: block;
+}
